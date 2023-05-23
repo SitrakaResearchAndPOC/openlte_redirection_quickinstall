@@ -51,6 +51,6 @@ start
 wait… and when you have “ok” answer in shell #2 remove airplane mode and … enjoy !
 
 * Video explaining :  
-https://www.youtube.com/watch?v=CL4THUyUSDc&t=34s&pp=ygUhbHRlIHJlZGlyZWN0aW9uIGJhc3RpZW4gYmFyYW5vZmYg  
-https://www.youtube.com/shorts/j5cs28u4DAo  
-https://www.youtube.com/watch?v=GmPN6CblvaQ&pp=ygUhbHRlIHJlZGlyZWN0aW9uIGJhc3RpZW4gYmFyYW5vZmYg
+**https://www.youtube.com/watch?v=CL4THUyUSDc&t=34s&pp=ygUhbHRlIHJlZGlyZWN0aW9uIGJhc3RpZW4gYmFyYW5vZmYg  
+**https://www.youtube.com/shorts/j5cs28u4DAo  
+**https://www.youtube.com/watch?v=GmPN6CblvaQ&pp=ygUhbHRlIHJlZGlyZWN0aW9uIGJhc3RpZW4gYmFyYW5vZmYg
