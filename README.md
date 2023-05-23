@@ -21,7 +21,7 @@ sudo apt install libboost-date-time1.67.0 libboost-filesystem1.67.0 libboost-reg
 echo "Done !!!!"
 
 
-OTHER INSTALLATION : 
+OTHER INSTALLATION :  
 sudo apt install libboost-program-options1.67.0 libboost-thread1.67.0 libusb-1.0-0 usbutils python-is-python3 python3-requests
 sudo apt install libfftw3
 
