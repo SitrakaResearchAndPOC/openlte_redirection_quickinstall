@@ -47,6 +47,8 @@ write mcc 215
 write mnc 15  
 write band 7  
 write dl_earfcn 3350  
+write tracking_area_code 6604   
+
 (change with your ue values be careful that the earfcn is in the band)  
   
 Then switch the phone in airplane mode and in  localhost:30000 (Shell #2) :  
