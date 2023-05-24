@@ -9,9 +9,11 @@ apt update
 ```
 apt-get install git
 ```
-
 ```
 git clone https://github.com/bbaranoff/openLTE2GSM/
+```
+```
+cd openLTE2GSM/
 ```
 ```
 sudo chmod +x install.sh
