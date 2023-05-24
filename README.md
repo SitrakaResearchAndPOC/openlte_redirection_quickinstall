@@ -48,6 +48,9 @@ sudo apt install libboost-program-options1.67.0 libboost-thread1.67.0 libusb-1.0
 ```
 sudo apt install libfftw3-3
 ```
+```
+/usr/lib/uhd/utils/uhd_images_downloader.py
+```
 
 * Installing 2G IMSI-Catcher with ARFCN 514
 Then build 2G IMSI-Catcher  
