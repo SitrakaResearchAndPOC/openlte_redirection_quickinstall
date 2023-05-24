@@ -3,6 +3,12 @@
 Follow this readme :  
 https://github.com/bbaranoff/openLTE2GSM/
 
+```
+apt update
+```
+```
+apt-get install git
+```
 
 ```
 git clone https://github.com/bbaranoff/openLTE2GSM/
